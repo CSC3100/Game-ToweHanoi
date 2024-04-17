@@ -21,7 +21,10 @@ public class MapPanel extends JPanel {
 
   private ImageIcon getMap() throws Exception {
     String location = "35.270378,-120.680656";
-    String apiKey = "AiSeFXl4iTK4QhhhkPTfUOulN5_rFaTBC62yquebCDL9anZNIP333urvmwXnuFz6";
+    String apiKey = "[ADD HERE YOUR KEY FOR A LOCAL TEST]";
+    
+    // create a second version in which your KEY is not embedded in your code
+    
     String mapUrl = "https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/"
       + location + "?zoomLevel=10&mapSize=200,200&key="
       + apiKey;
