@@ -7,4 +7,4 @@ Drag and drop functionality with selection of disks and tower
 - [ ] Implement rules for disk positions
 - [ ] Game over
 
-![screenshot](docs/UMLdiagram.png)
+
